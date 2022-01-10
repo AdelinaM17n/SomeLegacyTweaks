@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "example-mod",
+  "id": "legacytweaks",
   "version": "${version}",
 
-  "name": "example mod",
+  "name": "SomeLegacyTweaks",
   "description": "enter a description here",
   "authors": [
-    "YourNameHere"
+    "Maheesha"
   ],
   "contact": {
   },
@@ -17,11 +17,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "org.example.example.Entrypoint::initialize"
+      "io.github.maheevil.legacytweaks.SomeLegacyTweaks::TellWitnessesThatIWasInitialized"
     ]
   },
   "mixins": [
-    "example.mixins.json"
+    "legacytweaks.mixins.json"
   ],
 
   "depends": {

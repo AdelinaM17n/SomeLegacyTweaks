@@ -2,3 +2,6 @@
 /.idea
 /build
 /run
+example-mod.iml
+example-mod.ipr
+example-mod.iws
