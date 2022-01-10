@@ -6,6 +6,8 @@
   "mixins": [
   ],
   "client": [
+    "ClientSidePlayerEntityMixin",
+    "AchievementNotificationMixin"
   ],
   "injectors": {
     "defaultRequire": 1
